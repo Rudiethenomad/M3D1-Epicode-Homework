@@ -64,3 +64,9 @@ Write a selector to target the second blog-post author
 
     color:chartreuse
 }
+/*Ex 9
+Write a selector to target the second <li> in the third blog-post unordered-list
+*/
+.blog-post li:nth-child(3){
+    color:darksalmon;
+}
