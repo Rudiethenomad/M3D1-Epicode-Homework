@@ -60,3 +60,7 @@ color:darkorange;
 /*Ex 8
 Write a selector to target the second blog-post author
 */
+.blog-post p:first-of-type a:first-of-type{
+
+    color:chartreuse
+}
