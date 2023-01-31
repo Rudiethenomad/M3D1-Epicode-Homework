@@ -37,3 +37,7 @@ Write a selector to target the first blogpost <hr> and turn it red
 .blog-post hr:first-of-type{
     border-color:red;
 }
+
+/*Ex 6
+Write a selector to target the “even” links in the navbar
+*/
