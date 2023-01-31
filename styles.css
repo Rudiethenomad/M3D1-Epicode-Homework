@@ -41,3 +41,22 @@ Write a selector to target the first blogpost <hr> and turn it red
 /*Ex 6
 Write a selector to target the “even” links in the navbar
 */
+nav :nth-child(even){
+    color:pink;
+}
+/*Ex 7
+Write a selector to target all the <li> into the first ordered-list in the sidebar ( Archives )
+*/
+/*
+.p4 >ol >li{
+color:darkorange;
+}*/
+.blog-sidebar div:nth-of-type(2) ol li:nth-of-type(even) a {
+    color: red;
+}
+/*This is the answer that is provided but it doesnt fit the question?*/
+
+
+/*Ex 8
+Write a selector to target the second blog-post author
+*/
