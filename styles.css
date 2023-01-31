@@ -1,0 +1,33 @@
+
+
+
+/*Ex 1
+Write a selector to target the h1 in the first “hero” section
+*/
+.jumbotron h1{
+    color: orange;
+}
+
+/*Ex 2
+Write a selector to target every children of the navbar
+*/
+nav >span{
+color: orange;
+
+}
+
+/*Ex 3
+Write a selector to target the “continue reading…” inside the jumbotron
+*/
+.jumbotron a{
+    color: green;
+
+}
+
+/*Ex 4
+Write a selector to target the first blogpost
+*/
+.col strong{
+    color: red;
+}
+
