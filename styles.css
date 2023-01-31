@@ -27,7 +27,13 @@ Write a selector to target the “continue reading…” inside the jumbotron
 /*Ex 4
 Write a selector to target the first blogpost
 */
-.col strong{
-    color: red;
+.blog-post:first-of-type {
+    background-color:beige;
 }
 
+/*Ex 5
+Write a selector to target the first blogpost <hr> and turn it red
+*/
+.blog-post hr:first-of-type{
+    border-color:red;
+}
