@@ -2,7 +2,10 @@
 /* Ex 1
  // EXTRA Write a JavaScript functionality to remove the “twitter” link under the “Elsewhere” section in the aside element. It should happen when the page loads, automatically.
  */
-let twl = 
+//window onload
+//blog-sidebar
+//should be a queryselector
+
  
 
 
